@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   max-height: 100vh;
+  
+}
+.main{
+ padding: 40px;
+ background: lightcyan;
+ border-radius: 20px;
+}
+.message{
+    width: 200px;
+    padding-bottom: 100px;
+}
+.btn{
+    padding:4px 8px;
+    background-color: palegreen;
+    border: none;
+    cursor: pointer;
+}
+.error{
+    color: green;
+}
+.back{
+  width: 30px;
+  height: 30px;
+}
+.back:hover{
+  cursor: pointer;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+.contact{
+    text-align: center;
+}
+.time{
+    display: none;
+}

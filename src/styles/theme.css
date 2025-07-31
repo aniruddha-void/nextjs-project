@@ -1,0 +1,63 @@
+body.light {
+  background-color: #ffffff;
+  color: #222;
+}
+
+body.dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.theme-toggle-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.toggle-slider {
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+  position: relative;
+  transition: all 0.3s ease;
+  border: 2px solid #999;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+.toggle-slider.light {
+  background-color: #ddd;
+}
+
+.toggle-slider.dark {
+  background-color: #333;
+}
+
+.toggle-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-slider.dark .toggle-circle {
+  left: 31px;
+  background-color: #111;
+  color: white;
+}
+
+.toggle-label {
+  font-size: 14px;
+  font-weight: 500;
+}
