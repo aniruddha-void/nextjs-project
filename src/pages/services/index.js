@@ -6,9 +6,10 @@ export default function ServicesHome() {
       <ul>
          
       
-        <li><a href="/services/cybersecurity">Cyber Security</a></li>
-        <li><a href="/services/seo">SEO</a></li>
-        <li><a href="/services/web-development">Web Development</a></li>
+        <Link href="/services/cybersecurity/">Cyber Security</Link>
+      <Link href="/services/seo/">SEO</Link>
+        <Link href="/services/web-development/">Web Development</Link>
+        
        </ul>
     </div>
   );

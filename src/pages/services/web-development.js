@@ -3,9 +3,9 @@ export default function WebDevHome() {
     <div style={{ padding: '40px' }}>
       <h1> Web Development Services</h1>
       <ul>
-        <li><a href="/services/web-development/mern">MERN Stack</a></li>
-        <li><a href="/services/web-development/mean">MEAN Stack</a></li>
-        <li><a href="/services/web-development/dotnet">.NET Stack</a></li>
+       <Link href="/services/web-development/mern/">MERN</Link>
+        <Link href="/services/web-development/mean/">MEAN</Link>
+        <Link href="/services/web-development/dotnet/">.NET</Link>
       </ul>
     </div>
   );
